@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Steve Agalloco"]
   s.email       = ["steve.agalloco@gmail.com"]
-  s.homepage    = ""
+  s.homepage    = "http://rubygems.org/gems/gstock"
   s.description = %q{A simple API wrapper for google finance stock quotes.}
 
   s.rubyforge_project = "gstock"
