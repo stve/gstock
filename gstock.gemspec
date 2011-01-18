@@ -4,7 +4,7 @@ require "gstock/version"
 
 Gem::Specification.new do |s|
   s.name        = "gstock"
-  s.version     = Gstock::VERSION
+  s.version     = GStock::VERSION
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Steve Agalloco"]
   s.email       = ["steve.agalloco@gmail.com"]

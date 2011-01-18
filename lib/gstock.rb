@@ -1,6 +1,6 @@
 require 'faraday_middleware'
 
-module Gstock
+module GStock
 
   class NotFound < StandardError; end
 

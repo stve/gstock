@@ -1,3 +1,3 @@
-module Gstock
+module GStock
   VERSION = "0.0.1"
 end
