@@ -1,0 +1,20 @@
+GStock
+======
+
+GStock is a really simple ruby library for retrieving stock quotes from Google's unofficial quote API.
+
+Installation
+------------
+    $ (sudo) gem install gstock
+
+Usage
+-----
+
+    require "rubygems"
+    require "gstock"
+
+    # Get a quote
+    puts GStock.quote("AAPL").last
+
+If an invalid quote is passed in, GStock will respond by raising a GStock::NotFound exception.
+
