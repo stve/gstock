@@ -5,6 +5,9 @@ describe GStock do
   it 'should return data for valid symbols' do
     quote = GStock.quote('YHOO')
     quote.should be_kind_of(Hashie::Mash)
+    quote.company.should == 'Yahoo! Inc.'
+    quote.currency.should == 'USD'
+    quote.exchange.should == 'Nasdaq'
   end
 
   it 'should not return empty data values' do
