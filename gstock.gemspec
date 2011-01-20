@@ -10,6 +10,7 @@ Gem::Specification.new do |s|
   s.email       = ["steve.agalloco@gmail.com"]
   s.homepage    = "http://rubygems.org/gems/gstock"
   s.description = %q{A simple API wrapper for google finance stock quotes.}
+  s.summary     = %q{A simple API wrapper for google finance stock quotes.}
 
   s.rubyforge_project = "gstock"
 
